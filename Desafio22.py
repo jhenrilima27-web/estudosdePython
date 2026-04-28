@@ -1,0 +1,7 @@
+nomec = str(input('Qual o seu nome completo ? ')).strip()
+print('Seu nome em mausculas é {}'.format(nomec.upper()))
+print('Seu nome em minusculas é {}'.format(nomec.lower()))
+print('Seu nome tem {} caracteres'.format(len(nomec)-nomec.count(' ')))
+#print('seu primeiro nome tem {} letras'.format(nomec.find(' ')))
+separa = nomec.split()
+print ('Seu primeiro nome é {} e tem {} caracteres'.format(separa[0],len(separa[0])))
